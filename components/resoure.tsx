@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
-export default function resoure() {
+export default function Resoure() {
     const { ref } = useSectionInView("My Resource");
   return (
     <section id="resource" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
